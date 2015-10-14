@@ -104,6 +104,9 @@ a.active-l1 {
   padding: 5px 20px 2px 4px;
   margin: 0 0 0px 0;
 }
+.menu_l1 li:last-child a {
+  padding: 5px 0px 2px 4px;
+}
 
 .menu_l1 li a.active-l1 {
   color: #ffffff;
@@ -172,7 +175,7 @@ div.search {
   margin: 0 0 0px 0; 
 }
 
-.searchBox {
+.searchBox {  
   background: #e0e1e3;
   padding: 0 0 0px 3px;
   margin: 0px 0px 0px 0;
@@ -184,11 +187,13 @@ div.search {
 }
 
 .searchButton {
+  cursor: pointer;
+  height: 19px;
+  background: #e0e1e3;
   border: none;
   margin: 0px 0px 5px 0px;
   padding: 0 0 0px 0;
-  float:left;
-  background: 
+  float:left;    
 }
 
 
@@ -297,7 +302,8 @@ img {
 }
 
 .full {
-  width: 981px;
+  width: 978px;
+  height: auto;
   overflow: hidden;
   padding: 0px;
   margin: 0px 0px 0px 0px;
@@ -932,10 +938,11 @@ a.whatsnew-ett {
 /* Footer ****************************************************/
 
 .footer {
-  overflow: hidden;
-  padding: 10px 0px 0 0;  
-  margin: 10px 0 0px 0;
-  border-top: 1px solid #9c9c9c;
+    overflow: hidden;
+    padding: 10px 0px 0 0;
+    margin: 10px auto 0px auto;
+    border-top: 1px solid #9c9c9c;
+    width: 981px;
 }
 
 .footer p {
